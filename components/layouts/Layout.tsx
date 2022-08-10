@@ -39,7 +39,7 @@ export const Layout: FC<Props> = ( { children, title = 'PokeApp' } ) =>
         />
         <meta
           name="og:image"
-          content={ `${origin}/banner.png` }
+          content={ `${origin}/images/banner.png` }
         />
       </Head>
       <Navbar/>
